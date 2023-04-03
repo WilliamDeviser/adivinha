@@ -1,0 +1,62 @@
+#titulo{
+    margin-top: 5%;
+    text-shadow: 0px 0px 10px #6aeb67;
+}
+
+#cx-resposta{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25%;
+    margin-top: 5%;
+    background-color: #6aeb67;
+    color: black;
+}
+
+#cx-resposta{
+    transition: opacity 1s;
+}
+
+#cx-resposta h3{
+    opacity: .9;
+}
+
+#container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cx-dados{
+    width: 60%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#img-header{
+    width: 32%;
+}
+
+input{
+    padding: 5%;
+}
+
+button{
+    padding: 5%;
+    border: none;
+    background-color: #6aeb67;
+    color: #252525;
+    transition: filter .2s;
+}
+
+button:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}

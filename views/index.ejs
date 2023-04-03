@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
+    <title>Adivinhação</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/default.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <script src="src/js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Vou revelar seu destino!</h1>
+        <div id="cx-resposta">
+            <h3 id="resposta"></h3>
+        </div>
+    </header>
+    <main>
+        <div id="container">
+            <img id="img-header" src="img/caveira.png" alt="">
+            <div class="cx-dados">
+                <p>Clique para fazer pergunta para que seu destino seja revelado.</p>
+                <input id="inputPergunta" type="text" placeholder="Digite sua pergunta ...">
+                <button id="buttonPerguntar" onclick="fazerPergunta()">PERGUNTAR</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
